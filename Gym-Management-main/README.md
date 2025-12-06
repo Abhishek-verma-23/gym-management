@@ -52,17 +52,3 @@ Method	Endpoint	Description
 POST	  /bookings	Book a session (runs conflict detection algorithm for Time/Coach/User availability).
 GET	    /bookings	View all active bookings.
 
-# Contributors
-
-    Gagan Syam Reddy     : User.java,  UserRepository.java, UserService.java, UserController.java
-
-    Sai Ranga Reddy      : Equipment.java , EquipmentRepository.java , EquipmentService.java , EquipmentController.java
-
-    Karthik Telluri      : BookingController , SchedulerService , BookingRepository
-
-    Sankalp Gadamsetty   : CoachController.java, Coach.java, CoachRepository.java , CoachService.java
-
-    Miyyapuram Varun     : HealthAttributes.java , HealthAttributesRepository.java , HealthAttributesService.java , HealthAttributesController.java 
-
-    Gangavarapu Jashwanth: DietPlan.java , DietSchedule.java , DietRoe.java , HealthAttributes.java ,
-                           HealthAttributesRepository.java , HealthAttributesService.java , HealthAttributesController.java 
